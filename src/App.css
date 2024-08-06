@@ -1,0 +1,59 @@
+
+/* src/App.css */
+.app {
+  display: flex;
+}
+
+/* .sidebar {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.main-content {
+  width: 70%;
+  padding: 10px;
+} */
+
+.recipe-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.recipe-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+p.heding {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.recipe-details img {
+  max-width: 100%;
+}
+
+.menu-box h5 {
+  text-align: center;
+  padding: 15px 0;
+}
